@@ -11,3 +11,15 @@
     background: linear-gradient(to bottom, #f16aad, #d946ef);
     color: white;
   }
+
+
+  .gradient-border-card {
+    box-shadow: 0px 0px 10px rgba(243, 230, 230, 0.5), 
+                0px 0px 20px rgba(175, 241, 208, 0.534), 
+                0px 0px 30px rgba(245, 240, 165, 0.842), 
+                0px 0px 40px rgba(202, 153, 221, 0.1), 
+                0px 0px 50px rgba(235, 168, 168, 0.233);
+    border: 2px solid transparent;
+    background-color: white;
+    color: white;
+  }
