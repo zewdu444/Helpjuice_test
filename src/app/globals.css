@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.gradient-border {
+    border: 2px solid;
+    border-image-slice: 1;
+    border-width: 6px;
+    border-image-source: linear-gradient(to bottom, #AB96F8, #FF99D0
+    );
+    background: linear-gradient(to bottom, #f16aad, #d946ef);
+    color: white;
+  }
