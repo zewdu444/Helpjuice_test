@@ -30,8 +30,13 @@ function ActionCard() {
                       click “Capture”
                     </p>
                   </div>
-                  <hr className=" h-8 border-t-[2px] border-dashed relative w-5 bottom-40 left-[12.5rem]" />
-                  <hr class="h-8 border-t-[2px] border-dashed relative w-[10rem] bottom-[8rem] left-[8rem] transform rotate-90" />
+                  <div className="hidden sm:block relative ">
+                    <hr className=" h-8 border-t-[2px] border-dashed relative w-5 bottom-40 left-[12.5rem]" />
+                    <hr className="h-8 border-t-[2px] border-dashed relative w-[10rem] bottom-[8rem] left-[8rem] transform rotate-90" />
+                    <hr className="h-8 border-t-[2px] border-dashed relative w-[14.5rem] bottom-[4rem] left-[14rem] " />
+                    <hr className="h-8 border-t-[2px] border-dashed relative w-[10rem] bottom-[12rem] left-[22.5rem] transform rotate-90" />
+                    <hr className=" h-8 border-t-[2px] border-dashed relative w-5 bottom-[18rem] left-[28.5rem]" />
+                  </div>
                 </div>
 
                 <div className="group flex flex-col  bg-white  dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
@@ -49,7 +54,6 @@ function ActionCard() {
                       to understand how to document it.
                     </p>
                   </div>
-                  <hr />
                 </div>
 
                 <div className="group flex flex-col  bg-white  dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
@@ -71,13 +75,21 @@ function ActionCard() {
                 </div>
               </div>
             </div>
-            <div className="max-w-2xl justify-center items-center flex flex-col">
-              <h2 className="font-semibold text-gray-800 text-lg dark:text-gray-200 max-w-[240px] text-center underline">
-                +32 MORE FEATURES
-              </h2>
-              <h4 className="font-semibold text-gray-800 text-xs dark:text-gray-200 max-w-[280px] text-center">
-                INCLUDING A KB INTEGRATION
-              </h4>
+            <div className="sm:block relative  sm:bottom-[10rem]">
+              <div className="max-w-2xl justify-center items-center flex flex-col">
+                <h2 className="font-semibold text-gray-800 text-lg dark:text-gray-200 max-w-[240px] text-center underline">
+                  +32 MORE FEATURES
+                </h2>
+                <h4 className="font-semibold text-gray-800 text-xs dark:text-gray-200 max-w-[280px] text-center">
+                  INCLUDING A KB INTEGRATION
+                </h4>
+              </div>
+              <div>
+                <img
+                  src="/cardpic.png"
+                  className="relative sm:left-[30rem] left-[16rem] w-8"
+                />
+              </div>
             </div>
           </div>
         </div>
