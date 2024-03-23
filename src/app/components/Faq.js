@@ -2,7 +2,7 @@ import React from "react";
 
 function Faq() {
   return (
-    <div className="max-w-[85rem] px-4  sm:px-6  mx-auto">
+    <div className="max-w-[85rem] px-4  sm:px-6 sm:pt-0 pt-8  mx-auto">
       <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
         <h2 className="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">
           Common Questions
@@ -205,6 +205,7 @@ function Faq() {
                 <path d="m18 15-6-6-6 6" />
               </svg>
             </button>
+
             <div
               id="hs-basic-with-title-and-arrow-stretched-collapse-four"
               className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
@@ -215,6 +216,14 @@ function Faq() {
                 eiusmod tempor incididunt ut labore et dolore magna aliqua
               </p>
             </div>
+          </div>
+          <div className="gap-3 flex  justify-end">
+            <a
+              className="py-2 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-black text-white hover:bg-gray-700  disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+              href="#"
+            >
+              Visit Help & Community Center
+            </a>
           </div>
         </div>
       </div>
