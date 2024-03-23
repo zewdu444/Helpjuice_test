@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import ActionCard from "./components/ActionCard";
 import ActionDetail from "./components/ActionDetail";
 import Faq from "./components/Faq";
+import Banner from "./components/Banner";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <ActionCard />
       <ActionDetail />
       <Faq />
+      <Banner />
     </main>
   );
 }
