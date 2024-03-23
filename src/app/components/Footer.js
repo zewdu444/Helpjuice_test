@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="w-full">
       <div className="w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 lg:pt-20 mx-auto">
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6">
           <div className="col-span-full lg:col-span-1">
             <div className="flex flex-col gap-3">
               <a
@@ -52,43 +52,51 @@ function Footer() {
           </div>
 
           <div className="col-span-1">
-            <h4 className="font-semibold text-gray-100">Product</h4>
+            <h4 className="font-semibold">Learn more</h4>
 
             <div className="mt-3 grid space-y-3">
               <p>
                 <a
-                  className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                  className="inline-flex gap-x-2  hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                   href="#"
                 >
-                  Pricing
+                  Wizardshot
                 </a>
               </p>
               <p>
                 <a
-                  className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                  className="inline-flex gap-x-2 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                   href="#"
                 >
-                  Changelog
+                  Community Page
                 </a>
               </p>
               <p>
                 <a
-                  className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                  className="inline-flex gap-x-2  hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                   href="#"
                 >
-                  Docs
+                  Help Center
+                </a>
+              </p>
+              <p>
+                <a
+                  className="inline-flex gap-x-2  hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                  href="#"
+                >
+                  Security information
                 </a>
               </p>
             </div>
           </div>
 
           <div className="col-span-1">
-            <h4 className="font-semibold text-gray-100">Company</h4>
+            <h4 className="font-semibold ">Company</h4>
 
             <div className="mt-3 grid space-y-3">
               <p>
                 <a
-                  className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                  className="inline-flex gap-x-2 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                   href="#"
                 >
                   About us
@@ -96,149 +104,63 @@ function Footer() {
               </p>
               <p>
                 <a
-                  className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                  className="inline-flex gap-x-2  hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                   href="#"
                 >
-                  Blog
-                </a>
-              </p>
-              <p>
-                <a
-                  className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                  href="#"
-                >
-                  Careers
-                </a>{" "}
-                <span className="inline ms-1 text-xs bg-blue-700 text-white py-1 px-2 rounded-lg">
-                  We're hiring
-                </span>
-              </p>
-              <p>
-                <a
-                  className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                  href="#"
-                >
-                  Customers
+                  Status Page
                 </a>
               </p>
             </div>
           </div>
 
-          <div className="col-span-2">
-            <h4 className="font-semibold text-gray-100">Stay up to date</h4>
-
-            <form>
-              <div className="mt-4 flex flex-col items-center gap-2 sm:flex-row sm:gap-3 bg-white rounded-lg p-2 dark:bg-gray-800">
-                <div className="w-full">
-                  <label htmlFor="hero-input" className="sr-only">
-                    Search
-                  </label>
-                  <input
-                    type="text"
-                    id="hero-input"
-                    name="hero-input"
-                    className="py-3 px-4 block w-full border-transparent rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-transparent dark:text-gray-400 dark:focus:ring-gray-600"
-                    placeholder="Enter your email"
-                  />
-                </div>
-                <a
-                  className="w-full sm:w-auto whitespace-nowrap p-3 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                  href="#"
-                >
-                  Subscribe
-                </a>
-              </div>
-              <p className="mt-3 text-sm text-gray-400">
-                New UI kits or big discounts. Never spam.
-              </p>
-            </form>
+          <div className="col-span-1">
+            <div className="sm:flex flex-col hidden ">
+              <h4 className="text-base text-right">+1 (833) 387 3877</h4>
+              <h4 className="text-base text-right">success@wizardshot.com</h4>
+            </div>
+            <div className="flex flex-row gap-1 pt-2  sm:justify-end">
+              <svg
+                width="38"
+                height="37"
+                viewBox="0 0 38 37"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M26.2826 8.80101C25.2003 7.62093 24.6038 6.10542 24.6043 4.53662H19.7118V23.2878C19.674 24.3026 19.2255 25.2637 18.4606 25.9689C17.6957 26.674 16.6741 27.0682 15.6109 27.0683C13.3626 27.0683 11.4943 25.3142 11.4943 23.1366C11.4943 20.5356 14.1226 18.5849 16.8301 19.3864V14.6078C11.3676 13.9122 6.58594 17.9649 6.58594 23.1366C6.58594 28.1722 10.9559 31.7561 15.5951 31.7561C20.5668 31.7561 24.6043 27.9 24.6043 23.1366V13.6249C26.5882 14.9857 28.9701 15.7157 31.4126 15.7117V11.0391C31.4126 11.0391 28.4359 11.1752 26.2826 8.80101Z"
+                  fill="#0D0D0D"
+                  fillOpacity="0.8"
+                />
+              </svg>
+              <svg
+                width="32"
+                height="31"
+                viewBox="0 0 32 31"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17.6299 0.0244141C19.4111 0.0289506 20.3152 0.0380238 21.0958 0.0591946L21.403 0.0697799C21.7576 0.0818774 22.1075 0.0969993 22.5303 0.115146C24.215 0.190755 25.3645 0.444804 26.3731 0.818317C27.4181 1.20241 28.2984 1.72261 29.1787 2.56188C29.9838 3.31782 30.6068 4.23223 31.0043 5.24149C31.3954 6.20476 31.6614 7.30261 31.7406 8.9131C31.7596 9.31534 31.7754 9.64954 31.788 9.98978L31.7976 10.2831C31.8213 11.0271 31.8308 11.8906 31.834 13.5918L31.8356 14.7199V16.7009C31.8394 17.8039 31.8273 18.9069 31.7991 20.0096L31.7896 20.3029C31.777 20.6432 31.7611 20.9774 31.7421 21.3796C31.663 22.9901 31.3938 24.0865 31.0043 25.0512C30.608 26.0611 29.9848 26.9757 29.1787 27.7309C28.387 28.4995 27.4296 29.0945 26.3731 29.4744C25.3645 29.8479 24.215 30.102 22.5303 30.1776C22.1546 30.1945 21.7788 30.2096 21.403 30.2229L21.0958 30.232C20.3152 30.2532 19.4111 30.2638 17.6299 30.2668L16.4487 30.2683H14.3761C13.2207 30.2721 12.0653 30.2605 10.9102 30.2335L10.603 30.2245C10.2272 30.2109 9.8514 30.1952 9.47572 30.1776C7.79105 30.102 6.64155 29.8479 5.63138 29.4744C4.57478 29.0954 3.61773 28.5003 2.8273 27.7309C2.02145 26.9752 1.3979 26.0607 1.00013 25.0512C0.609049 24.088 0.343049 22.9901 0.263882 21.3796C0.246242 21.0208 0.230409 20.6619 0.216382 20.3029L0.208466 20.0096C0.179288 18.9069 0.166092 17.8039 0.168882 16.7009V13.5918C0.164463 12.4888 0.176076 11.3858 0.203716 10.2831L0.214799 9.98978C0.227466 9.64954 0.243299 9.31534 0.262299 8.9131C0.341466 7.30261 0.607466 6.20627 0.998549 5.24149C1.39615 4.2312 2.02094 3.3165 2.82888 2.56188C3.61911 1.79289 4.57553 1.19786 5.63138 0.818317C6.64155 0.444804 7.78947 0.190755 9.47572 0.115146C9.89688 0.0969993 10.2484 0.0818774 10.603 0.0697799L10.9102 0.0607066C12.0648 0.0338391 13.2197 0.0222445 14.3745 0.0259261L17.6299 0.0244141ZM16.0022 7.58539C13.9026 7.58539 11.889 8.38199 10.4043 9.79995C8.91962 11.2179 8.08555 13.1411 8.08555 15.1464C8.08555 17.1517 8.91962 19.0748 10.4043 20.4928C11.889 21.9107 13.9026 22.7073 16.0022 22.7073C18.1018 22.7073 20.1155 21.9107 21.6001 20.4928C23.0848 19.0748 23.9189 17.1517 23.9189 15.1464C23.9189 13.1411 23.0848 11.2179 21.6001 9.79995C20.1155 8.38199 18.1018 7.58539 16.0022 7.58539ZM16.0022 10.6098C16.626 10.6097 17.2437 10.7269 17.82 10.9548C18.3964 11.1827 18.9201 11.5168 19.3612 11.938C19.8024 12.3592 20.1523 12.8592 20.3911 13.4096C20.6299 13.96 20.7529 14.5499 20.753 15.1456C20.7531 15.7414 20.6304 16.3313 20.3917 16.8817C20.1531 17.4322 19.8033 17.9324 19.3623 18.3537C18.9213 18.775 18.3977 19.1093 17.8215 19.3373C17.2452 19.5654 16.6276 19.6829 16.0038 19.683C14.744 19.683 13.5358 19.205 12.645 18.3542C11.7542 17.5034 11.2538 16.3495 11.2538 15.1464C11.2538 13.9432 11.7542 12.7893 12.645 11.9385C13.5358 11.0877 14.744 10.6098 16.0038 10.6098M24.3163 5.3171C23.7914 5.3171 23.288 5.51625 22.9168 5.87074C22.5457 6.22523 22.3371 6.70602 22.3371 7.20734C22.3371 7.70866 22.5457 8.18946 22.9168 8.54395C23.288 8.89843 23.7914 9.09758 24.3163 9.09758C24.8412 9.09758 25.3446 8.89843 25.7158 8.54395C26.087 8.18946 26.2955 7.70866 26.2955 7.20734C26.2955 6.70602 26.087 6.22523 25.7158 5.87074C25.3446 5.51625 24.8412 5.3171 24.3163 5.3171Z"
+                  fill="#0D0D0D"
+                  fillOpacity="0.8"
+                />
+              </svg>
+            </div>
+            <div className="flex flex-row justify-end pt-4 text-xl font-bold gap-3 sm:mr-0 mr-4">
+              <h4 className="text-right">Sign Up</h4>
+              <h4 className="text-right">Log in</h4>
+            </div>
           </div>
         </div>
 
-        <div className="mt-5 sm:mt-12 grid gap-y-2 sm:gap-y-0 sm:flex sm:justify-between sm:items-center">
-          <div className="flex justify-between items-center">
-            <p className="text-sm text-gray-400">
-              © 2022 Preline. All rights reserved.
-            </p>
+        <div className="mt-5 flex flex-col gap-4 border-t-2 sm:border-t-0">
+          <div className="sm:hidden flex-col flex py-2 ">
+            <h4 className="text-base text-center">+1 (833) 387 3877</h4>
+            <h4 className="text-base text-center">success@wizardshot.com</h4>
           </div>
-
-          <div>
-            <a
-              className="size-10 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-white hover:bg-white/10 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:ring-1 focus:ring-gray-600"
-              href="#"
-            >
-              <svg
-                className="flex-shrink-0 size-4"
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                viewBox="0 0 16 16"
-              >
-                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-              </svg>
-            </a>
-            <a
-              className="size-10 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-white hover:bg-white/10 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:ring-1 focus:ring-gray-600"
-              href="#"
-            >
-              <svg
-                className="flex-shrink-0 size-4"
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                viewBox="0 0 16 16"
-              >
-                <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z" />
-              </svg>
-            </a>
-            <a
-              className="size-10 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-white hover:bg-white/10 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:ring-1 focus:ring-gray-600"
-              href="#"
-            >
-              <svg
-                className="flex-shrink-0 size-4"
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                viewBox="0 0 16 16"
-              >
-                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
-              </svg>
-            </a>
-            <a
-              className="size-10 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-white hover:bg-white/10 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:ring-1 focus:ring-gray-600"
-              href="#"
-            >
-              <svg
-                className="flex-shrink-0 size-4"
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                viewBox="0 0 16 16"
-              >
-                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-              </svg>
-            </a>
-            <a
-              className="size-10 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-white hover:bg-white/10 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:ring-1 focus:ring-gray-600"
-              href="#"
-            >
-              <svg
-                className="flex-shrink-0 size-4"
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                viewBox="0 0 16 16"
-              >
-                <path d="M3.362 10.11c0 .926-.756 1.681-1.681 1.681S0 11.036 0 10.111C0 9.186.756 8.43 1.68 8.43h1.682v1.68zm.846 0c0-.924.756-1.68 1.681-1.68s1.681.756 1.681 1.68v4.21c0 .924-.756 1.68-1.68 1.68a1.685 1.685 0 0 1-1.682-1.68v-4.21zM5.89 3.362c-.926 0-1.682-.756-1.682-1.681S4.964 0 5.89 0s1.68.756 1.68 1.68v1.682H5.89zm0 .846c.924 0 1.68.756 1.68 1.681S6.814 7.57 5.89 7.57H1.68C.757 7.57 0 6.814 0 5.89c0-.926.756-1.682 1.68-1.682h4.21zm6.749 1.682c0-.926.755-1.682 1.68-1.682.925 0 1.681.756 1.681 1.681s-.756 1.681-1.68 1.681h-1.681V5.89zm-.848 0c0 .924-.755 1.68-1.68 1.68A1.685 1.685 0 0 1 8.43 5.89V1.68C8.43.757 9.186 0 10.11 0c.926 0 1.681.756 1.681 1.68v4.21zm-1.681 6.748c.926 0 1.682.756 1.682 1.681S11.036 16 10.11 16s-1.681-.756-1.681-1.68v-1.682h1.68zm0-.847c-.924 0-1.68-.755-1.68-1.68 0-.925.756-1.681 1.68-1.681h4.21c.924 0 1.68.756 1.68 1.68 0 .926-.756 1.681-1.68 1.681h-4.21z" />
-              </svg>
-            </a>
-          </div>
+          <p className="text-sm sm:text-black  text-gray-400 text-center">
+            © 2024 Wizardshot – All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
