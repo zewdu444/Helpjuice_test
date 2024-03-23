@@ -4,7 +4,7 @@ function ActionCard() {
   return (
     <div className="">
       <div className="relative z-10">
-        <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-4">
+        <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-4 ">
           <div className="max-w-2xl text-center mx-auto">
             <div className="mt-5 max-w-2xl">
               <h2 className="block font-semibold text-gray-800 text-2xl md:text-4xl lg:text-4xl dark:text-gray-200">
